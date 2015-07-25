@@ -10,6 +10,11 @@
   "peerDependencies": {
       "eslint": "^0.24.1"
   },
+  "keywords": [
+    "eslint"
+    "eslintplugin",
+    "ember"
+  ],
   "author": "Chris Manson <chris@manson.ie>",
   "license": "MIT",
   "devDependencies": {
