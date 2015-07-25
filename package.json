@@ -15,6 +15,7 @@
     "eslintplugin",
     "ember"
   ],
+  "repository": "Authmaker/segment-ember-actions",
   "author": "Chris Manson <chris@manson.ie>",
   "license": "MIT",
   "devDependencies": {
