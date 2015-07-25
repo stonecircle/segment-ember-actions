@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/Authmaker/segment-ember-actions/badges/gpa.svg)](https://codeclimate.com/github/Authmaker/segment-ember-actions)
+[![Code Climate](https://codeclimate.com/github/Authmaker/segment-ember-actions/badges/gpa.svg)](https://codeclimate.com/github/Authmaker/segment-ember-actions)[![Build Status](https://travis-ci.org/Authmaker/segment-ember-actions.svg?branch=master)](https://travis-ci.org/Authmaker/segment-ember-actions)
 # Require all action functions in Ember to have at least one analytics.track function call (segment-ember-actions)
 
 This rule generates warnings for Ember action handler functions that do not have a call to analytics.track()
