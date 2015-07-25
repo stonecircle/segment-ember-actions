@@ -11,7 +11,7 @@
       "eslint": "^0.24.1"
   },
   "keywords": [
-    "eslint"
+    "eslint",
     "eslintplugin",
     "ember"
   ],
