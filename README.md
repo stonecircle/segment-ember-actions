@@ -3,6 +3,25 @@
 
 This rule generates warnings for Ember action handler functions that do not have a call to analytics.track()
 
+## Usage
+To install:
+```
+npm install --save-dev eslint eslint-plugin-segment-ember-actions
+```
+add these to your `.eslintrc` file:
+```
+"rules": {
+  "segment-ember-actions/analytics-track": 2
+},
+"plugins": [
+  "segment-ember-actions"
+]
+```
+and then run the **local** eslint:
+```
+node_modules/.bin/eslint app/**/*.js
+```
+
 ## Rule details
 
 The following controllers throw warnings:
