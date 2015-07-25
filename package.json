@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-segment-ember-actions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rule to check action blocks for analytics tracking events",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test-watch": "npm run test -- -w --reporter min"
   },
   "peerDependencies": {
-      "eslint": "^0.24.1"
+    "eslint": "^0.24.1"
   },
   "keywords": [
     "eslint",
