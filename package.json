@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-segment-ember-actions",
+  "version": "1.0.0",
+  "description": "ESLint rule to check action blocks for analytics tracking events",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "test-watch": "npm run test -- -w --reporter min"
+  },
+  "peerDependencies": {
+      "eslint": "^0.24.1",
+  },
+  "author": "Chris Manson <chris@manson.ie>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^0.24.1",
+    "eslint-tester": "^0.8.2",
+    "mocha": "^2.2.5"
+  }
+}
