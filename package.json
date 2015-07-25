@@ -8,7 +8,7 @@
     "test-watch": "npm run test -- -w --reporter min"
   },
   "peerDependencies": {
-      "eslint": "^0.24.1",
+      "eslint": "^0.24.1"
   },
   "author": "Chris Manson <chris@manson.ie>",
   "license": "MIT",
