@@ -49,7 +49,7 @@ eslintTester.addRuleTest("lib/rules/segment-ember-actions", {
             "es6": true
         },
         errors: [{
-            message: "no analytics.track() found"
+            message: "no analytics.track() found for action \"exampleAction\""
         }]
     }]
 });
