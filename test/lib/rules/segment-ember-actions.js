@@ -33,6 +33,16 @@ eslintTester.addRuleTest("lib/rules/segment-ember-actions", {
             }
         },
         {
+            code: "import Ember from 'ember';\nexport default Ember.Controller.extend({\n  actions: {\n    exampleAction() {\n      analytics.track('somthing', {with: 'data'});\n      if(true) {} \n    }\n  }\n});",
+            ecmaFeatures: {
+                "modules": true
+            },
+            "env": {
+                "browser": true,
+                "es6": true
+            }
+        },
+        {
             code: "import Ember from 'ember';\nexport default Ember.Controller.extend({\n  actions: {\n    //no-track\n exampleAction() {}\n  }\n});",
             ecmaFeatures: {
                 "modules": true
